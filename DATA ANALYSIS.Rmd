@@ -7,6 +7,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(openxlsx)
+read.xlsx("AHIES2022Q1_2023Q3_SEC01234_202402.xlsx")
+
 ```
 
 ## R Markdown
